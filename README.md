@@ -2,6 +2,13 @@
 
 A set of classes and utilities used in Google Cloud Java libraries.
 
+:bus: In January 2023, this library has moved to
+[google-cloud-java/java-core](
+https://github.com/googleapis/google-cloud-java/tree/main/java-core).
+This repository will be archived in the future.
+Future releases will appear in the new repository (https://github.com/googleapis/google-cloud-java/releases).
+The Maven artifact coordinates (such as `com.google.cloud:google-cloud-core`) remain the same.
+
 *Note*: This library is only meant to be consumed by other Google Libraries.
 
 [![Maven](https://img.shields.io/maven-central/v/com.google.cloud/google-cloud-core.svg)](https://img.shields.io/maven-central/v/com.google.cloud/google-cloud-core.svg)
@@ -26,7 +33,7 @@ information.
 
 This library follows [Semantic Versioning][semver].
 
-It is currently in major version one (``1.y.z``), which means that the public API should be
+It is currently in major version two (``2.y.z``), which means that the public API should be
 considered stable.
 
 ## License
